@@ -16,9 +16,10 @@ export default function NavBar(props) {
   return (
     <div className="sticky top-0">
       <div
-        className={`relative bg-${props.mainBG}-900 overflow-hidden drop-shadow`}
+        className={`relative bg-${props.mainBG==="gray"?"gray-900":"white"} overflow-hidden drop-shadow`}
         style={{ zIndex: 1000 }}
       >
+
         <div className="max-w-7xl flex items-center justify-between mx-8">
           <div
             className={`relative z-10 bg-${props.mainBG}-900 lg:max-w-2xl lg:w-full`}
@@ -73,7 +74,6 @@ export default function NavBar(props) {
                   </div>
                 </nav>
               </div>
-             
 
               <Transition
                 as={Fragment}
@@ -126,6 +126,19 @@ export default function NavBar(props) {
               </Transition>
             </Popover>
           </div>
+
+          <div className="flex items-center justify-center w-1/5 self-center">
+          <label htmlFor="toogleA" className="flex items-center cursor-pointer">
+            <div className="relative">
+              <input id="toogleA" type="checkbox" className="sr-only" onClick={props.toggleMode}/>
+              <div className="w-10 h-4 bg-gray-400 rounded-full shadow-inner"></div>
+              <div className="dot absolute w-6 h-6 bg-white rounded-full overflow-hidden shadow -left-1 -top-1 transition">
+                <img src="../../logo.png" alt="" />
+              </div>
+            </div>
+          </label>
+        </div>
+
         </div>
       </div>
     </div>
