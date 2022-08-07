@@ -16,7 +16,7 @@ export default function NavBar(props) {
   return (
     <div className="sticky top-0">
       <div
-        className={`relative bg-${props.mainBG==="gray"?"gray-900":"white"} overflow-hidden drop-shadow`}
+        className={`relative bg-${props.mainBG==="gray"?"gray-900":"white"} lg:overflow-hidden drop-shadow md:overflow-hidden sm:overflow-hidden`}
         style={{ zIndex: 1000 }}
       >
 
@@ -35,7 +35,7 @@ export default function NavBar(props) {
                       <Link to="/">
                         <img
                           alt="Workflow"
-                          className="h-32 w-auto sm:h-32"
+                          className="h-8 lg:h-32 md:h-32 w-auto sm:h-32"
                           src="../../Logo.png"
                         />
                       </Link>
@@ -86,10 +86,10 @@ export default function NavBar(props) {
               >
                 <Popover.Panel
                   focus
-                  className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                  className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden w-32"
                 >
                   <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                    <div className="px-5 pt-4 flex items-center justify-between">
+                    <div className="lg:px-5 lg:pt-4 md:px-5 md:pt-4 flex items-center justify-between lg:w-auto md:w-auto sm:w-auto">
                       <div>
                         <img
                           className="h-20 w-auto"

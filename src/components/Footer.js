@@ -6,97 +6,187 @@ export default function Footer(props) {
     <>
       <footer
         className={`text-${props.mainBG === "gray" ? "white" : "gray-600"} bg-${
-          props.mainBG}-900 shadow-lg shadow-white body-font`}
+          props.mainBG
+        }-900 shadow-lg shadow-white body-font`}
       >
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap md:text-left text-center order-first">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className={`title-font font-medium text-${props.mainBG==="gray"?"white":"gray-900"} tracking-widest text-sm mb-3`}>
+              <h2
+                className={`title-font font-medium text-${
+                  props.mainBG === "gray" ? "white" : "gray-900"
+                } tracking-widest text-sm mb-3`}
+              >
                 CATEGORIES
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     First Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Second Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Third Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Fourth Link
                   </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className={`title-font font-medium text-${props.mainBG==="gray"?"white":"gray-900"} tracking-widest text-sm mb-3`}>
+              <h2
+                className={`title-font font-medium text-${
+                  props.mainBG === "gray" ? "white" : "gray-900"
+                } tracking-widest text-sm mb-3`}
+              >
                 CATEGORIES
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     First Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Second Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Third Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Fourth Link
                   </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className={`title-font font-medium text-${props.mainBG==="gray"?"white":"gray-900"} tracking-widest text-sm mb-3`}>
+              <h2
+                className={`title-font font-medium text-${
+                  props.mainBG === "gray" ? "white" : "gray-900"
+                } tracking-widest text-sm mb-3`}
+              >
                 CATEGORIES
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     First Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }
+                    `}
+                  >
                     Second Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Third Link
                   </a>
                 </li>
                 <li>
-                  <a className={`text-${props.mainBG==="gray" ? "gray-600":"gray-600"} hover:text-${props.mainBG==="gray"?"white":"gray-800"}`}>
+                  <a
+                    className={`text-${
+                      props.mainBG === "gray" ? "gray-600" : "gray-600"
+                    } hover:text-${
+                      props.mainBG === "gray" ? "white" : "gray-800"
+                    }`}
+                  >
                     Fourth Link
                   </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className={`title-font font-medium text-${props.mainBG==="gray"?"white":"gray-900"} tracking-widest text-sm mb-3`}>
+              <h2
+                className={`title-font font-medium text-${
+                  props.mainBG === "gray" ? "white" : "gray-900"
+                } tracking-widest text-sm mb-3`}
+              >
                 SUBSCRIBE
               </h2>
               <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
-                <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                <div className=" w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                   <label
                     htmlFor="footer-field"
                     className="leading-7 text-sm text-gray-600"
@@ -138,19 +228,29 @@ export default function Footer(props) {
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
             </a>
-            <p className={`text-sm text-${props.mainBG==="gray"?"gray-400":"gray-500"} sm:ml-6 sm:mt-0 mt-4`}>
+            <p
+              className={`text-sm text-${
+                props.mainBG === "gray" ? "gray-400" : "gray-500"
+              } sm:ml-6 sm:mt-0 mt-4`}
+            >
               © 2022 Fornext —
               <a
                 href="https://twitter.com/Gautam_34"
                 rel="noopener noreferrer"
-                className={`text-${props.mainBG==="gray"?"gray-400":"gray-500"} ml-1`}
+                className={`text-${
+                  props.mainBG === "gray" ? "gray-400" : "gray-500"
+                } ml-1`}
                 target="_blank"
               >
                 @Gautam_34
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-              <a className="text-gray-500 hover:text-blue-500">
+              <a
+                href="https://www.facebook.com/profile.php?id=100073625083772"
+                className="text-gray-500 hover:text-blue-500"
+                target="_balnk"
+              >
                 <svg
                   fill="currentColor"
                   strokeLinecap="round"
@@ -162,7 +262,11 @@ export default function Footer(props) {
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a className="ml-3 text-gray-500 hover:text-cyan-500">
+              <a
+                href="https://twitter.com/Gautam_34"
+                className="ml-3 text-gray-500 hover:text-cyan-500"
+                target="_balnk"
+              >
                 <svg
                   fill="currentColor"
                   strokeLinecap="round"
@@ -174,7 +278,11 @@ export default function Footer(props) {
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a className="ml-3 rounded-md overflow-hidden">
+              <a
+                href="https://www.instagram.com/gautam_vaishnav_0234/"
+                className="ml-3 rounded-md overflow-hidden"
+                target="_balnk"
+              >
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -188,7 +296,11 @@ export default function Footer(props) {
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </a>
-              <a className="ml-3 text-gray-500 hover:text-blue-400">
+              <a
+                href="https://www.linkedin.com/in/gautam-vaishnav-58a788232/"
+                className="ml-3 text-gray-500 hover:text-blue-400"
+                target="_balnk"
+              >
                 <svg
                   fill="currentColor"
                   stroke="currentColor"
